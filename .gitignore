@@ -1,0 +1,24 @@
+# Секретные ключи и токены (НИКОГДА не отправлять в репозиторий!)
+.env
+*.env
+*.pdf
+CV_*.pdf
+*.db
+jobs_data.db
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Логи и временные файлы
+*.log
+scratch/
+test_*.py
+check_*.py
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
